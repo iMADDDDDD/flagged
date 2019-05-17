@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context="org.com1032.flagged_v2.FullscreenActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important notice"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location_please"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please activate location for best user-experience"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/start_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start!"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/marker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/marker_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/marker_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:text="Calculate distance"
+        android:id="@+id/button_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/change_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amend details" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/picture_button"
+        android:text="Add picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Flagged</string>
+    <string name="title_activity_boot_up">BootUp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_fullscreen">Welcome_1</string>
+    <string name="title_activity_fullscreen2">Welcome_2</string>
+
+    <string name="please_gps">Location failed, please enable GPS</string>
+    <string name="location_details">Location details</string>
+    <string name="input_error">Please fill in details correctly</string>
+    <string name="successful_location">Done!</string>
+    <string name="where_to_go">Where do you want to go?</string>
+    <string name="valid_location">Please chose a valid type of location</string>
+    <string name="your_position">This is your current position</string>
+    <string name="please_locate">Please locate yourself before proceeding</string>
+
+
+</resources>

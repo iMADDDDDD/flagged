@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/add_marker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What's the place name?"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/add_marker_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="A brief description"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/add_marker_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="A rating between 1 and 10"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <RadioGroup
+        android:id="@+id/types_button"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/hospital_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital"/>
+
+
+        <RadioButton
+            android:id="@+id/restaurant_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant"/>
+
+        <RadioButton
+            android:id="@+id/town_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Town"/>
+
+        <RadioButton
+            android:id="@+id/museum_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Museum"/>
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
